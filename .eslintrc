@@ -1,0 +1,32 @@
+{
+  "extends": "rallycoding",
+  "rules": {
+      "space-in-parens": [ "error", "always" ],
+      "no-console": ["error", { allow: ["warn"] }],
+      "no-debugger": "error",
+      "no-dupe-args": "error",
+      "no-dupe-keys": "error",
+      "no-empty": "error",
+      "no-regex-spaces": "error",
+      "default-case": "error",
+      "eqeqeq": "error",
+      "no-else-return": "error",
+      "no-empty-function": "error",
+      "no-multi-spaces": "error",
+      "no-useless-escape": "error",
+      "block-spacing": "error",
+      "camelcase": "error",
+      "eol-last": "error",
+      "indent": "error",
+      "jsx-quotes": "error",
+      "key-spacing": "error",
+      "max-len": ["error", { "code": 300, "ignoreComments": true, "ignoreUrls": true }],
+      "no-multiple-empty-lines": "error",
+      "no-trailing-spaces": "error",
+      "spaced-comment": "error",
+      "arrow-spacing": "error",
+      "constructor-super": "error",
+      "no-const-assign": "error",
+      "no-var": "error"
+    }
+}
