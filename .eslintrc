@@ -2,7 +2,7 @@
   "extends": "rallycoding",
   "rules": {
       "space-in-parens": [ "error", "always" ],
-      "no-console": "error",
+      "no-console": ["error", { allow: ["warn"] }],
       "no-debugger": "error",
       "no-dupe-args": "error",
       "no-dupe-keys": "error",
@@ -20,7 +20,7 @@
       "indent": "error",
       "jsx-quotes": "error",
       "key-spacing": "error",
-      "max-len": "error",
+      "max-len": ["error", { "code": 300, "ignoreComments": true, "ignoreUrls": true }],
       "no-multiple-empty-lines": "error",
       "no-trailing-spaces": "error",
       "spaced-comment": "error",
